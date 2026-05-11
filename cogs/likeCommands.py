@@ -15,7 +15,7 @@ CONFIG_FILE = "like_channels.json"
 class LikeCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.api_host = "https://likeapixthug.onrender.com"
+        self.api_host = "http://like.thug4ff.xyz/like?uid={uid}&server_name={region}&key=abhi45"
         self.config_data = self.load_config()
         self.cooldowns = {}
         self.session = aiohttp.ClientSession()
